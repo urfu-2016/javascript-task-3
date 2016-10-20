@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "main": "robbery.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "eslint . && mocha *.spec.js"
+  },
+  "dependencies": {
+    "eslint": "3.7.0",
+    "eslint-config-hrundel": "latest",
+    "mocha": "3.1.0"
+  }
+}
